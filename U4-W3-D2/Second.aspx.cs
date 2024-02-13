@@ -15,7 +15,7 @@ namespace U4_W3_D2
             if (Request.Cookies["UsernameCookie"] != null)
             {
                 // Visualizza la username nella Label
-                DatiUsername.Text = "Username: " + Request.Cookies["UsernameCookie"]["Username"] + " Password: " + Request.Cookies["UsernameCookie"]["Password"];
+                DatiUsername.Text = "Ciao " + Request.Cookies["UsernameCookie"]["Username"] + " ci sei mancato!";
             }
             else
             {

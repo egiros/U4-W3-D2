@@ -8,11 +8,16 @@
     <title></title>
 </head>
 <body>
+
         <form runat="server">
-            <h2>Seconda Pagina</h2>
-            <asp:Label ID="DatiUsername" runat="server"></asp:Label>
-            <br />
-            <asp:Button ID="BtnLogout" runat="server" Text="Logout" OnClick="BtnLogout_Click"/>
+                 <h2>BENVENUTO NELLA TUA AREA RISERVATA</h2>
+                   <asp:Label ID="DatiUsername" runat="server"></asp:Label>
+                        <br />
+                        <br />
+                        <br />
+                    <asp:Button ID="BtnLogout" runat="server" Text="Logout" OnClick="BtnLogout_Click"/>
+           
         </form>
+
 </body>
 </html>
